@@ -9,5 +9,7 @@
 </h1>
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
+<a href="employees">Funcionários</a>
+<a href="employees-points">Inserir Registros</a>
 </body>
 </html>
