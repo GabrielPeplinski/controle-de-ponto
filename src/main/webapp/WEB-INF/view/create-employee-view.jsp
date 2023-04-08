@@ -1,16 +1,44 @@
 <%--
   Created by IntelliJ IDEA.
-  User: gabri
-  Date: 23/03/2023
-  Time: 20:04
+  User: GabrielPeplinski
+  Date: 08/04/2023
+  Time: 15:35
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <title>Novo Funcionario</title>
-</head>
-<body>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@taglib prefix="t" tagdir="/WEB-INF/tags"%>
 
-</body>
-</html>
+<t:template title="Resultado">
+    <jsp:body>
+       <main class="padding responsive">
+           <form>
+               <div class="field label border large">
+                   <input type="text">
+                   <label>Nome</label>
+                   <span class="helper">Nome do Funcionário</span>
+               </div>
+               <div class="field label border large">
+                   <input type="text">
+                   <label>CPF</label>
+                   <span class="helper">CPF do funcionário</span>
+               </div>
+               <div class="field label suffix border">
+                   <select>
+                       <option>Item 1</option>
+                       <option>Item 2</option>
+                       <option>Item 3</option>
+                   </select>
+                   <label class="active">Label</label>
+                   <i>arrow_drop_down</i>
+                   <span class="helper">Setor que o funcionário trabalha</span>
+               </div>
+               <div class="center-align">
+                   <button class="round primary large-elevate">
+                       <i>add_circle</i>
+                       <span>Adicionar</span>
+                   </button>
+               </div>
+           </form>
+       </main>
+    </jsp:body>
+</t:template>

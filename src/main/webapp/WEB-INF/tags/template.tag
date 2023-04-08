@@ -21,19 +21,22 @@
     <!-- CSS -->
     <link rel="stylesheet" href="assets/resources/styles/main.css"></link>
     <link rel="stylesheet" href="assets/resources/styles/template.css"></link>
-    <link rel="stylesheet" href="assets/libraries/font-awesome/css/font-awesome.min.css"></link>
     <!-- Beer Css -->
     <link href="https://cdn.jsdelivr.net/npm/beercss@3.1.0/dist/cdn/beer.min.css" rel="stylesheet"></link>
 </head>
 <body>
 <header class="no-padding">
     <nav class="s m l responsive center-align primary">
-        <a>
-            <i>add</i>
+        <a href="/controle-de-ponto">
+            <i>home</i>
+            <span>Inicio</span>
+        </a>
+        <a href="/controle-de-ponto/employees">
+            <i>person_add</i>
             <span>Novo Funcionario</span>
         </a>
-        <a href="http://localhost:8080/controle-de-ponto/employees">
-            <i>list</i>
+        <a>
+            <i>group</i>
             <span>Listar Funcionarios</span>
         </a>
         <a>
@@ -41,7 +44,7 @@
             <span>Novo Registro</span>
         </a>
         <a>
-            <i>list</i>
+            <i>analytics</i>
             <span>Ver Registros</span>
         </a>
     </nav>
@@ -50,7 +53,7 @@
     <jsp:doBody></jsp:doBody>
 </main>
 <!-- rodape-->
-<footer class="responsive primary center-align">
+<footer class="responsive primary center-align padding">
     <div class="container">
         <p>Controle de Ponto</p>
         <p>Desenvolvido por Gabriel Souza Peplinski</p>

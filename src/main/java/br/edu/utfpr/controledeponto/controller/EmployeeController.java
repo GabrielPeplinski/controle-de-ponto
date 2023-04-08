@@ -9,21 +9,10 @@ import java.io.PrintWriter;
 @WebServlet(name = "EmployeeController", value = "/employees")
 public class EmployeeController extends HttpServlet {
 
-    private String message;
-
-    public void init() {
-        message = "Funcionários";
-    }
-
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        response.setContentType("text/html");
 
-        // Hello
-        PrintWriter out = response.getWriter();
-        out.println("<html><body>");
-        out.println("<h1>" + message + "</h1>");
-        out.println("</body></html>");
+        request.getRequestDispatcher("/WEB-INF/view/create-employee-view.jsp").forward(request, response);
     }
 
     @Override
