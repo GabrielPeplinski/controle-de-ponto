@@ -1,4 +1,4 @@
-package br.edu.utfpr.controledeponto;
+package br.edu.utfpr.controledeponto.controller;
 
 import java.io.*;
 
