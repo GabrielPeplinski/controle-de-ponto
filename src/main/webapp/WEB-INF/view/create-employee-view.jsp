@@ -13,17 +13,17 @@
        <main class="padding responsive">
            <form action="funcionarios" method="post">
                <div class="field label border">
-                   <input type="text">
+                   <input type="text" name="name">
                    <label>Nome</label>
                    <span class="helper">Nome do Funcionário</span>
                </div>
                <div class="field label border">
-                   <input type="text">
+                   <input type="text" name="cpf">
                    <label>CPF</label>
                    <span class="helper">CPF do funcionário</span>
                </div>
                <div class="field label suffix border">
-                   <select>
+                   <select name="setor">
                        <option>Item 1</option>
                        <option>Item 2</option>
                        <option>Item 3</option>
