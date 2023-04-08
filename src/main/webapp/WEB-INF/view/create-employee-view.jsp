@@ -11,13 +11,13 @@
 <t:template title="Resultado">
     <jsp:body>
        <main class="padding responsive">
-           <form>
-               <div class="field label border large">
+           <form action="funcionarios" method="post">
+               <div class="field label border">
                    <input type="text">
                    <label>Nome</label>
                    <span class="helper">Nome do Funcionário</span>
                </div>
-               <div class="field label border large">
+               <div class="field label border">
                    <input type="text">
                    <label>CPF</label>
                    <span class="helper">CPF do funcionário</span>
@@ -28,7 +28,7 @@
                        <option>Item 2</option>
                        <option>Item 3</option>
                    </select>
-                   <label class="active">Label</label>
+                   <label class="active">Setor</label>
                    <i>arrow_drop_down</i>
                    <span class="helper">Setor que o funcionário trabalha</span>
                </div>

@@ -26,12 +26,12 @@
 </head>
 <body>
 <header class="no-padding">
-    <nav class="s m l responsive center-align primary">
+    <nav class="s m l left primary">
         <a href="/controle-de-ponto">
             <i>home</i>
             <span>Inicio</span>
         </a>
-        <a href="/controle-de-ponto/employees">
+        <a href="/controle-de-ponto/funcionarios">
             <i>person_add</i>
             <span>Novo Funcionario</span>
         </a>
@@ -57,6 +57,7 @@
     <div class="container">
         <p>Controle de Ponto</p>
         <p>Desenvolvido por Gabriel Souza Peplinski</p>
+        <br>
     </div>
 </footer>
 <script src="https://code.jquery.com/jquery-2.2.4.js"></script>

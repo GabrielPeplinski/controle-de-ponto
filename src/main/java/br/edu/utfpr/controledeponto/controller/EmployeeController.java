@@ -4,9 +4,8 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
-import java.io.PrintWriter;
 
-@WebServlet(name = "EmployeeController", value = "/employees")
+@WebServlet(name = "EmployeeController", value = "/funcionarios")
 public class EmployeeController extends HttpServlet {
 
     @Override

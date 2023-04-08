@@ -11,6 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="39eff6ce-7171-4fe0-80d5-4e83655e2a03" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/controledeponto/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/controledeponto/controller/EmployeeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/template.tag" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/template.tag" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/create-employee-view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/create-employee-view.jsp" afterDir="false" />
@@ -207,7 +208,7 @@
       <workItem from="1679881657612" duration="966000" />
       <workItem from="1680486843141" duration="856000" />
       <workItem from="1680920479390" duration="3396000" />
-      <workItem from="1680969815305" duration="7899000" />
+      <workItem from="1680969815305" duration="11228000" />
     </task>
     <servers />
   </component>
