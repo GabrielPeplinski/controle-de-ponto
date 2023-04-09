@@ -1,6 +1,5 @@
 package br.edu.utfpr.controledeponto.util;
 
-
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
@@ -18,7 +17,6 @@ public final class JPAUtil {
     public JPAUtil(String persistenceUnit) {
         getEntityManager();
     }
-
     //uso do padrão double-checked locking
     public static EntityManagerFactory getEntityManagerFactory() {
         if (entityManagerFactory == null) {

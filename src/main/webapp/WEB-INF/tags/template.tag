@@ -32,6 +32,10 @@
             <span>Inicio</span>
         </a>
         <a href="/controle-de-ponto/funcionarios">
+            <i>add_business</i>
+            <span>Novo Setor</span>
+        </a>
+        <a href="/controle-de-ponto/funcionarios">
             <i>person_add</i>
             <span>Novo Funcionario</span>
         </a>
@@ -40,7 +44,7 @@
             <span>Listar Funcionarios</span>
         </a>
         <a>
-            <i>add_plus</i>
+            <i>more_time</i>
             <span>Novo Registro</span>
         </a>
         <a>

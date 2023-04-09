@@ -24,5 +24,5 @@ public class Employee {
     private String cpf;
 
     @NonNull
-    private Integer setor;
+    private String setor;
 }
