@@ -8,29 +8,19 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@taglib prefix="t" tagdir="/WEB-INF/tags"%>
 
-<t:template title="Funcionários">
+<t:template title="Setores">
     <jsp:body>
        <main class="padding responsive">
-           <form action="funcionarios" method="post">
+           <form action="setores" method="post">
                <div class="field label border">
                    <input type="text" name="name">
                    <label>Nome</label>
-                   <span class="helper">Nome do Funcionário</span>
+                   <span class="helper">Nome do setor</span>
                </div>
                <div class="field label border">
-                   <input type="text" name="cpf">
-                   <label>CPF</label>
-                   <span class="helper">CPF do funcionário</span>
-               </div>
-               <div class="field label suffix border">
-                   <select name="setor">
-                       <option>Item 1</option>
-                       <option>Item 2</option>
-                       <option>Item 3</option>
-                   </select>
-                   <label class="active">Setor</label>
-                   <i>arrow_drop_down</i>
-                   <span class="helper">Setor que o funcionário trabalha</span>
+                   <input type="text" name="code">
+                   <label>Código</label>
+                   <span class="helper">Código do Setor</span>
                </div>
                <div class="center-align">
                    <button class="round primary large-elevate">

@@ -31,7 +31,7 @@
             <i>home</i>
             <span>Inicio</span>
         </a>
-        <a href="/controle-de-ponto/funcionarios">
+        <a href="/controle-de-ponto/setores">
             <i>add_business</i>
             <span>Novo Setor</span>
         </a>

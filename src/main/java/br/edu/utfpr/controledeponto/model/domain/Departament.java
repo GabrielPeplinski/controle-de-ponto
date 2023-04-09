@@ -8,10 +8,10 @@ import lombok.RequiredArgsConstructor;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "employees")
+@Table(name = "departaments")
 @Data
 @RequiredArgsConstructor(access = AccessLevel.PUBLIC)
-public class Employee {
+public class Departament {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -21,13 +21,8 @@ public class Employee {
     private String name;
 
     @NonNull
-    private String cpf;
+    private String code;
 
-    @ManyToOne
-    @NonNull
-    private Departament departament;
-
-    public Employee() {
-
+    public Departament() {
     }
 }

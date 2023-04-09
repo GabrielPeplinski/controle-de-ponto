@@ -31,8 +31,8 @@ public class EmployeeController extends HttpServlet {
             getServletContext().setAttribute("employees", employeeList);
         }
 
-        Employee employee = new Employee(name, cpf, setor);
-        EmployeeService service = new EmployeeService();
-        service.save(employee);
+//        Employee employee = new Employee(name, cpf, setor);
+//        EmployeeService service = new EmployeeService();
+//        service.save(employee);
     }
 }
