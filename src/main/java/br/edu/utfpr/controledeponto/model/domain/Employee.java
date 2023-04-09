@@ -1,4 +1,4 @@
-package br.edu.utfpr.controledeponto.domain;
+package br.edu.utfpr.controledeponto.model.domain;
 
 import lombok.AccessLevel;
 import lombok.Data;
