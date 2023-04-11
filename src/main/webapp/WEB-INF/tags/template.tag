@@ -9,7 +9,6 @@
 <%-- The list of normal or fragment attributes can be specified here: --%>
 <%@attribute name="title" %>
 
-
 <html>
 <head>
     <title>${title}</title>
@@ -26,10 +25,14 @@
 </head>
 <body>
 <header class="no-padding">
-    <nav class="s m l left primary">
+    <nav class="left primary responsive">
         <a href="/controle-de-ponto">
             <i>home</i>
             <span>Inicio</span>
+        </a>
+        <a href="/controle-de-ponto/setores">
+            <i>add_business</i>
+            <span>Novo Setor</span>
         </a>
         <a href="/controle-de-ponto/funcionarios">
             <i>person_add</i>
@@ -40,7 +43,7 @@
             <span>Listar Funcionarios</span>
         </a>
         <a>
-            <i>add_plus</i>
+            <i>more_time</i>
             <span>Novo Registro</span>
         </a>
         <a>
@@ -49,7 +52,7 @@
         </a>
     </nav>
 </header>
-<main id="content" class="container">
+<main id="content" class="container border-left">
     <jsp:doBody></jsp:doBody>
 </main>
 <!-- rodape-->
