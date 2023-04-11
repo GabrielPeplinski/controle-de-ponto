@@ -11,8 +11,9 @@
   <component name="ChangeListManager">
     <list default="true" id="39eff6ce-7171-4fe0-80d5-4e83655e2a03" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/controledeponto/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/controledeponto/controller/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/controledeponto/model/domain/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/controledeponto/model/domain/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/assets/resources/styles/template.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/assets/resources/styles/template.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/template.tag" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/template.tag" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/create-employee-view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/create-employee-view.jsp" afterDir="false" />
     </list>
@@ -56,35 +57,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feature/05",
-    "last_opened_file_path": "C:/Users/gabri/Documents/Repositórios/WEB 4/controle-de-ponto/controle-de-ponto/src/main/webapp/WEB-INF/view",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Facets",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.30689654",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/05&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/gabri/Documents/Repositórios/WEB 4/controle-de-ponto/controle-de-ponto/src/main/webapp/WEB-INF/view&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.30689654&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\gabri\Documents\Repositórios\WEB 4\controle-de-ponto\controle-de-ponto\src\main\webapp\WEB-INF\view" />
       <recent name="C:\Users\gabri\Documents\Repositórios\WEB 4\controle-de-ponto\controle-de-ponto\src\main\webapp\WEB-INF\tags\assets\videos" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.edu.utfpr.controledeponto.controller" />
       <recent name="br.edu.utfpr.controledeponto.model.dao" />
       <recent name="br.edu.utfpr.controledeponto.service" />
-      <recent name="br.edu.utfpr.controledeponto.controller" />
       <recent name="br.edu.utfpr.controledeponto.model.dto" />
       <recent name="br.edu.utfpr.controledeponto.model.domain" />
     </key>
@@ -218,7 +219,8 @@
       <workItem from="1680486843141" duration="856000" />
       <workItem from="1680920479390" duration="3396000" />
       <workItem from="1680969815305" duration="11228000" />
-      <workItem from="1680991304521" duration="11716000" />
+      <workItem from="1680991304521" duration="17551000" />
+      <workItem from="1681167142279" duration="1797000" />
     </task>
     <servers />
   </component>

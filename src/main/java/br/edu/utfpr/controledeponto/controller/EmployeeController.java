@@ -1,7 +1,6 @@
 package br.edu.utfpr.controledeponto.controller;
 
 import br.edu.utfpr.controledeponto.model.domain.Employee;
-import br.edu.utfpr.controledeponto.service.EmployeeService;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
