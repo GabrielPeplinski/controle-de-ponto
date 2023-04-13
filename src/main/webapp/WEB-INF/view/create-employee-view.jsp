@@ -25,9 +25,9 @@
                </div>
                <div class="field label suffix border">
                    <select name="setor">
-                       <option>Item 1</option>
-                       <option>Item 2</option>
-                       <option>Item 3</option>
+                       <c:forEach var="departament" items="${departaments}">
+                           <option value="${departament.id}">${departament.name}</option>
+                       </c:forEach>
                    </select>
                    <label class="active">Setor</label>
                    <i>arrow_drop_down</i>
