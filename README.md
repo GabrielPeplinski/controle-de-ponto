@@ -8,7 +8,13 @@
 Neste projeto será possível fazer o controle e 
 registro de um sistema de ponto digital de 
 funcionários em uma loja.
-Será possível:
+
+## Protótipo:
+Protótipo elaborando utilizando a ferramenta QuantUX, disponível em:
+
+https://app.quant-ux.com/#/test.html?h=a2aa10azbebhBpgyD6r6oyEcg7V7uqDWRFZihX0lF4hs55dO8i7PjyeTwe6q&ln=en
+
+## Funcionalidades
 
 - Cadastrar funcionários
 - Cadastrar registro de horário dos funcionários
