@@ -36,13 +36,13 @@ https://app.quant-ux.com/#/test.html?h=a2aa10azbebhBpgyD6r6oyEcg7V7uqDWRFZihX0lF
     - [ ] Tratamento de erros genérico
 - [ ] Expression Language (EL) para acessar os objetos de domínio (beans) da camada de modelo do MVC
 - [ ] JSTL e TagLib
-    - [ ] forEach
+    - [x] forEach
     - [ ] if
-    - [ ] Template com cabeçalho e rodapé
+    - [x] Template com cabeçalho e rodapé
 - [ ] JavaScript
     - [ ] Requisição AJAX
     - [ ] Armazenamento no LocalStorage
     - [ ] Uso de plugin JQuery
 - [ ] JPA
-    - [ ] No mínimo 2 entidades.
-    - [ ] Operações de CRUD. 
+    - [x] No mínimo 2 entidades.
+    - [x] Operações de CRUD. 
