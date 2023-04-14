@@ -42,7 +42,7 @@
             <i>group</i>
             <span>Listar Funcionarios</span>
         </a>
-        <a>
+        <a href="/controle-de-ponto/registros-funcionarios">
             <i>more_time</i>
             <span>Novo Registro</span>
         </a>

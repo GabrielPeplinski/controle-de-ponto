@@ -31,7 +31,7 @@
                         <tr>
                             <td>${employee.name}</td>
                             <td>${employee.cpf}</td>
-                            <td>${employee.name}</td>
+                            <td>${employee.getDepartament().name}</td>
                         </tr>
                     </c:forEach>
                     </tbody>

@@ -43,6 +43,6 @@ https://app.quant-ux.com/#/test.html?h=a2aa10azbebhBpgyD6r6oyEcg7V7uqDWRFZihX0lF
     - [ ] Requisição AJAX
     - [ ] Armazenamento no LocalStorage
     - [ ] Uso de plugin JQuery
-- [ ] JPA
+- [x] JPA
     - [x] No mínimo 2 entidades.
     - [x] Operações de CRUD. 

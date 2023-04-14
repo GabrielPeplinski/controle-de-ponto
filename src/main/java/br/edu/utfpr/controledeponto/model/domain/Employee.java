@@ -30,4 +30,9 @@ public class Employee {
     public Employee() {
 
     }
+
+    public @NonNull Departament getDepartament()
+    {
+        return this.departament;
+    }
 }
