@@ -1,6 +1,8 @@
 package br.edu.utfpr.controledeponto.controller;
 
+import br.edu.utfpr.controledeponto.model.dao.DepartamentDAO;
 import br.edu.utfpr.controledeponto.model.domain.Departament;
+import br.edu.utfpr.controledeponto.service.DepartamentService;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -16,9 +18,8 @@ public class ListDepartamentsController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        List<Departament> departamentList = (List<Departament>) getServletContext().getAttribute("departaments");
+//        List<Departament> departamentList = (List<Departament>) getServletContext().getAttribute("departaments");
 
-        getServletContext().setAttribute("departaments", departamentList);
 
         request.getRequestDispatcher("/funcionarios").forward(request, response);
     }
