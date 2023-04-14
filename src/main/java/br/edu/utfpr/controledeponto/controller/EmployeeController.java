@@ -1,6 +1,9 @@
 package br.edu.utfpr.controledeponto.controller;
 
+import br.edu.utfpr.controledeponto.model.domain.Departament;
 import br.edu.utfpr.controledeponto.model.domain.Employee;
+import br.edu.utfpr.controledeponto.service.DepartamentService;
+import br.edu.utfpr.controledeponto.service.EmployeeService;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
@@ -14,6 +17,11 @@ public class EmployeeController extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        DepartamentService departamentService = new DepartamentService();
+        List<Departament> departamentList = departamentService.findAll();
+
+        getServletContext().setAttribute("departaments", departamentList);
+
         request.getRequestDispatcher("/WEB-INF/view/create-employee-view.jsp").forward(request, response);
     }
 
@@ -30,8 +38,13 @@ public class EmployeeController extends HttpServlet {
             getServletContext().setAttribute("employees", employeeList);
         }
 
-//        Employee employee = new Employee(name, cpf, setor);
-//        EmployeeService service = new EmployeeService();
-//        service.save(employee);
+        DepartamentService departamentService = new DepartamentService();
+        Departament departament = departamentService.getById(Long.parseLong(setor));
+
+        Employee employee = new Employee(name, cpf, departament);
+        EmployeeService service = new EmployeeService();
+        service.save(employee);
+
+        response.sendRedirect("/controle-de-ponto/ver-funcionarios");
     }
 }
