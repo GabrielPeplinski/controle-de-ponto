@@ -38,7 +38,7 @@
             <i>person_add</i>
             <span>Novo Funcionario</span>
         </a>
-        <a>
+        <a href="/controle-de-ponto/ver-funcionarios">
             <i>group</i>
             <span>Listar Funcionarios</span>
         </a>

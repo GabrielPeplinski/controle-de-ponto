@@ -11,8 +11,8 @@
   <component name="ChangeListManager">
     <list default="true" id="39eff6ce-7171-4fe0-80d5-4e83655e2a03" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/controledeponto/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/controledeponto/controller/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/controledeponto/controller/ListDepartamentsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/controledeponto/controller/ListDepartamentsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/controledeponto/controller/ListDepartamentsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/template.tag" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/template.tag" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,14 +60,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "feature/07",
     "last_opened_file_path": "C:/Users/gabri/Documents/Repositórios/WEB 4/controle-de-ponto/controle-de-ponto/src/main/webapp/WEB-INF/view",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Facets",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.30689654",
     "settings.editor.selected.configurable": "preferences.lookFeel",
@@ -219,7 +219,7 @@
       <workItem from="1680991304521" duration="17551000" />
       <workItem from="1681167142279" duration="2957000" />
       <workItem from="1681222691286" duration="165000" />
-      <workItem from="1681432977891" duration="4077000" />
+      <workItem from="1681432977891" duration="6288000" />
     </task>
     <servers />
   </component>
