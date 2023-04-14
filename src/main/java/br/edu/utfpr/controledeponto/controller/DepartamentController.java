@@ -36,6 +36,6 @@ public class DepartamentController extends HttpServlet {
         DepartamentService service = new DepartamentService();
         service.save(departament);
 
-        request.getRequestDispatcher("/index.jsp").forward(request, response);
+        response.sendRedirect("/controle-de-ponto");
     }
 }
