@@ -21,7 +21,6 @@
                 <table class="border center-align primary">
                     <thead>
                     <tr>
-                        <th></th>
                         <th>Nome</th>
                         <th>CPF</th>
                         <th>Setor</th>

@@ -10,6 +10,11 @@
 
 <t:template title="Setores">
     <jsp:body>
+
+        <c:if test="${name}">
+            <c:redirect url="pagina-de-destino.jsp"/>
+        </c:if>
+
        <main class="padding responsive">
            <form action="setores" method="post">
                <div class="field label border">
