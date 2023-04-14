@@ -46,7 +46,7 @@
             <i>more_time</i>
             <span>Novo Registro</span>
         </a>
-        <a>
+        <a href="/controle-de-ponto/ver-registros">
             <i>analytics</i>
             <span>Ver Registros</span>
         </a>

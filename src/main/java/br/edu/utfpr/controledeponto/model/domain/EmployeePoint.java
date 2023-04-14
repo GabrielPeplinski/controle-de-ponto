@@ -7,6 +7,7 @@ import lombok.RequiredArgsConstructor;
 import org.hibernate.annotations.CreationTimestamp;
 
 import javax.persistence.*;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 @Entity
@@ -22,7 +23,7 @@ public class EmployeePoint {
     @CreationTimestamp
     @Temporal(TemporalType.TIMESTAMP)
     @Column(name = "created_at")
-    private Date createDate;
+    private Date createdAt;
 
     @OneToOne
     @NonNull
@@ -34,5 +35,12 @@ public class EmployeePoint {
     public @NonNull Employee getEmployee()
     {
         return this.employee;
+    }
+
+    public String getCreatedDate()
+    {
+        SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy HH:mm");
+
+        return format.format(this.createdAt);
     }
 }
