@@ -11,8 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="39eff6ce-7171-4fe0-80d5-4e83655e2a03" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/controledeponto/controller/DepartamentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/controledeponto/controller/DepartamentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/controledeponto/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/controledeponto/controller/EmployeeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/create-departament-view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/create-departament-view.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/list-employees-view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/list-employees-view.jsp" afterDir="false" />
     </list>
@@ -221,11 +220,22 @@
       <workItem from="1680991304521" duration="17551000" />
       <workItem from="1681167142279" duration="2957000" />
       <workItem from="1681222691286" duration="165000" />
-      <workItem from="1681432977891" duration="6973000" />
+      <workItem from="1681432977891" duration="8239000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/list-employees-view.jsp</url>
+          <line>18</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

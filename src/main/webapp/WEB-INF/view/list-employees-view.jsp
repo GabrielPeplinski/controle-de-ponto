@@ -18,8 +18,8 @@
                 </h3>
             </c:if>
             <c:if test="${employeeList.size() >= 1}">
-                <table class="border center-align primary">
-                    <thead>
+                <table class="border center-align">
+                    <thead class="primary">
                     <tr>
                         <th>Nome</th>
                         <th>CPF</th>
@@ -31,7 +31,7 @@
                         <tr>
                             <td>${employee.name}</td>
                             <td>${employee.cpf}</td>
-                            <td>${employee.nome}</td>
+                            <td>${employee.name}</td>
                         </tr>
                     </c:forEach>
                     </tbody>

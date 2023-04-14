@@ -44,5 +44,7 @@ public class EmployeeController extends HttpServlet {
         Employee employee = new Employee(name, cpf, departament);
         EmployeeService service = new EmployeeService();
         service.save(employee);
+
+        response.sendRedirect("/controle-de-ponto/ver-funcionarios");
     }
 }
