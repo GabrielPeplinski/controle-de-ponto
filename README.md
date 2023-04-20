@@ -34,7 +34,7 @@ https://app.quant-ux.com/#/test.html?h=a2aa10azbebhBpgyD6r6oyEcg7V7uqDWRFZihX0lF
 - [ ] Controle de erros e exceção via web.xml
     - [ ] Tratamento por código de status ou exceção específica
     - [ ] Tratamento de erros genérico
-- [ ] Expression Language (EL) para acessar os objetos de domínio (beans) da camada de modelo do MVC
+- [x] Expression Language (EL) para acessar os objetos de domínio (beans) da camada de modelo do MVC
 - [x] JSTL e TagLib
     - [x] forEach
     - [x] if
